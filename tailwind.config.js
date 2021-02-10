@@ -1,17 +1,24 @@
 module.exports = {
   theme: {
-    colors: {
-      white: {
-        DEFAULT: "#FFFFFF",
-      },
-      purple: {
-        dark: "#682AEB",
-      },
-    },
     screens: {
       sm: { max: "600px" },
     },
     extend: {
+      backgroundImage: (theme) => ({
+        coins: "url('images/coins.png')",
+      }),
+      zIndex: {
+        "-10": "-10",
+      },
+      colors: {
+        white: {
+          DEFAULT: "#FFFFFF",
+        },
+        purple: {
+          dark: "#682AEB",
+          light: "#8D5FF0",
+        },
+      },
       spacing: {
         screen: "100vw",
         full: "100%",
