@@ -115,6 +115,8 @@ module.exports = {
         xl: "41px",
         eleven: "11px",
         button: "12px",
+        20: "20px",
+        18: "18px",
         "2xl": "24px",
         "3xl": "30px",
         "4xl": "36px",
@@ -149,7 +151,7 @@ module.exports = {
   },
   corePlugins: {
     animation: false,
-    backgroundOpacity: false,
+    backgroundOpacity: true,
     borderOpacity: false,
     divideOpacity: false,
     placeholderOpacity: false,
