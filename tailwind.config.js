@@ -89,7 +89,7 @@ module.exports = {
         sans: [
           // Sinkin Sans
           // '"Hanalei"',
-          "Big Shoulders Display",
+          "Mulish",
           "sinkin-sans",
           "ui-sans-serif",
           "system-ui",
@@ -113,6 +113,7 @@ module.exports = {
         base: "14px",
         lg: "22px",
         xl: "41px",
+        eleven: "11px",
         button: "12px",
         "2xl": "24px",
         "3xl": "30px",

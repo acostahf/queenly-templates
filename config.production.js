@@ -13,10 +13,14 @@ module.exports = {
   build: {
     templates: {
       destination: {
-        path: 'build_production',
+        path: "build_production",
+      },
+      assets: {
+        source: "src/assets/images",
+        destination: "images", // assets output to build_basic/images
       },
     },
   },
   inlineCSS: true,
   removeUnusedCSS: true,
-}
+};
