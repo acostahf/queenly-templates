@@ -10,14 +10,14 @@ bodyClass: bg-gray-100
   <block name="template">
     <table class="w-full font-sans bg-no-repeat ">
       <tr>
-        <td align="center" class="bg-gray-100 sm:px-16">
+        <td align="center" class="bg-white sm:px-16">
           <table
-            class="w-600 sm:w-full bg-auto bg-no-repeat z-20 bg-white " style="background:linear-gradient(#ffffff, #8d5ff0 50%, #ffffff);"> 
+            class="w-600 sm:w-full bg-no-repeat dark:bg-gray-100 "   style="background:linear-gradient(#fdfdfd 5%, #8d5ff0 25%);"> 
             <!-- header -->
-            <tr>
-              <td class="px-48 py-52 md:py-80 sm:py-80 sm:px-24 text-center bg-right " style="background-image: url(https://i.imgur.com/10Kczah.png);">
+            <tr >
+              <td class="px-48 py-52 md:py-80 sm:py-80 sm:px-24 text-center bg-right bg-no-repeat" style="background-image: url(https://i.imgur.com/10Kczah.png);" >
                 <a>
-                  <img class="z-10 " src="https://i.imgur.com/vAAizyW.png" alt="logo">
+                  <img  src="https://i.imgur.com/vAAizyW.png" alt="logo">
                 </a>
                 <h1 class="m-0 text-xl font-sans text-purple-dark uppercase">
                   Order Received, Queen!
@@ -25,12 +25,10 @@ bodyClass: bg-gray-100
                 <h3 class="text-purple-dark text-base">ORDER NO: XXXXX</h3> 
               </td>  
             </tr>
-            
-            
             <!-- 1st section -->
             <tr>
                   <td>
-                <table align="center" class="w-600 ">
+                <table align="center" class="w-600 " >
                   <tr>
                     <td>
                       <table class="w-full">
@@ -74,12 +72,12 @@ bodyClass: bg-gray-100
                       <table>
                         <tr>
                           <td class="w-full">
-                            <h3 class="mb-6 mt-0 text-20 pr-6" >Prom Dress</h3>
+                            <h3 class="mb-6 sm:mb-2 mt-0 text-20 pr-6 sm:pr-2 sm:text-base" >Prom Dress</h3>
                           </td>
                         </tr>
                         <tr>
-                          <td class="">
-                            <p class="mt-6 pr-6 text-18">details about dress </p>
+                          <td >
+                            <p class="mt-6 pr-6 text-18 sm:text-base">details about dress </p>
                           </td>
                         </tr>
                         <tr>
@@ -88,7 +86,7 @@ bodyClass: bg-gray-100
                       </table>
                     </td>
                     <td class="w-1/6">
-                      <h3 class="mt-0 mb-72 text-20" >$23.50</h3>
+                      <h3 class="mt-0 mb-72 text-20 sm:text-base" >$23.50</h3>
                     </td>
                   </tr>
 
@@ -112,12 +110,12 @@ bodyClass: bg-gray-100
                       <table>
                         <tr>
                           <td class="w-full">
-                            <h3 class="mb-6 mt-0 text-20 pr-6" >Prom Dress</h3>
+                            <h3 class="mb-6 sm:mb-2 mt-0 text-20 pr-6 sm:pr-2 sm:text-base" >Prom Dress</h3>
                           </td>
                         </tr>
                         <tr>
-                          <td class="">
-                            <p class="mt-6 pr-6 text-18">details about dress </p>
+                          <td >
+                            <p class="mt-6 pr-6 text-18 sm:text-base">details about dress </p>
                           </td>
                         </tr>
                         <tr>
@@ -126,7 +124,7 @@ bodyClass: bg-gray-100
                       </table>
                     </td>
                     <td class="w-1/6">
-                      <h3 class="mt-0 mb-72 text-20" >$23.50</h3>
+                      <h3 class="mt-0 mb-72 text-20 sm:text-base" >$23.50</h3>
                     </td>
                   </tr>
 
@@ -136,9 +134,9 @@ bodyClass: bg-gray-100
             <!-- payment method -->
             <tr>
               <td>
-                <table class="w-full text-white m-24">
+                <table class="w-full text-white p-24">
                   <tr>
-                    <td>
+                    <td >
                       <h3>Payment Method:</h3>
                       <p>Credit Card - Visa 3945</p>
                     </td>
@@ -154,74 +152,70 @@ bodyClass: bg-gray-100
                     <td class="w-2/4">
                     </td>
                     <td class="w-1/4">
-                      <p class="mb-6">Subtotal:</p>
-                      <p class="mt-12 mb-6">Tax (5.3%):</p>
-                      <p class="mt-12">Total:</p>
+                      <p class="mb-6 sm:text-base">Subtotal:</p>
+                      <p class="mt-12 mb-6 sm:text-base">Tax (5.3%):</p>
+                      <p class="mt-12 sm:text-base">Total:</p>
                     </td>
                     <td class="w-1/4 text-center">
-                      <p class=" mb-6">$278.50</p>
-                      <p class=" mt-12 mb-6">$50.50</p>
-                      <p class="mt-12">$278.50</p>
+                      <p class=" mb-6 sm:text-base">$278.50</p>
+                      <p class=" mt-12 mb-6 sm:text-base">$50.50</p>
+                      <p class="mt-12 sm:text-base">$278.50</p>
                     </td>
                   </tr>
                 </table>
               </td>
-            </tr>
-            <!-- spacer -->
-            <tr>
-              <td class="h-96 sm:h-32"></td>
-            </tr>
-            <!-- spacer -->
-            <tr>
-            <td class="h-96 sm:h-32"></td>
             </tr>
             <!-- End Note -->
             <tr>
-              <td>
-                <table class="w-full text-purple-dark m-36 ">
+              <td >
+                <table class=" text-white m-36 " >
+                  
                   <tr>
                     <td>
                       <p>If you decide to cancel your order, sign in to My Account to proceed.
-                        <p class="mb-0">Thanks</p>
-                        <p class="mt-0">Qeenly Team</p>
                       </p>
+                      <p class="mb-0">Thanks</p>
+                      <p class="mt-0">Queenly Team</p>
+                    </td>
+                  </tr>
+                  
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="bg-no-repeat "  style="background-image: url(https://i.imgur.com/qnUL0yq.png);">
+                <table>
+                  <tr>
+                    <td>
+                      <h1 class="text-white px-64">Get $20 for every queen who uses their $20 offer.</h1>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="pb-48 w-full sm:w-full">
+                      <table class="mx-auto ">
+                        <tr>
+                            <th
+                            class="bg-purple-light rounded-full"
+                            style="mso-padding-alt: 6px 48px"
+                            >
+                            <a
+                            href="https://queenly.com/your-profile"
+                            class="block text-btton text-button border-gray-50 text-white leading-full py-6 px-12  no-underline"
+                            >REFER YOUR FRIENDS HERE</a
+                            >
+                          </th>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
               </td>
             </tr>
-            <!-- Spacer -->
             <tr>
-              <td>
-                <table
-                  align="center"
-                  class="w-600 sm:w-full"
-                >
-                  <tr>
-                    <td class="h-48 sm:h-32"></td>
-                  </tr>
-                  <tr>
-                    <td class="h-64 sm:h-32"></td>
-                </table>
-              </td>
+              <td class="h-24 sm:h-32"></td>
             </tr>
-            <!-- spacer -->
             <tr>
-              <td class="h-96 sm:h-32"></td>
-            </tr>
-          </table>
-          <!-- Footer -->
-          <table  class="w-600 "  style="background:linear-gradient(#ffffff, #8d5ff0 100%);">
-            <tr >
-              <tr>
-                <td class="h-48 sm:h-32"></td>
-              </tr>
-              <tr>
-                <td class="h-64 sm:h-32"></td>
-              </tr>
-              <!-- Content -->
-            <tr>
-              <td class="text-center text-purple-dark h-64">
+              <td class="text-center text-white h-64">
                 <p class="mb-6 text-eleven">Need help? Contact us here: info@queenly.com</p>
                 <a
                 href="https://www.linkedin.com/company/queenly"
@@ -230,7 +224,7 @@ bodyClass: bg-gray-100
                 <img
                   src="https://i.imgur.com/ctQ5Ob9.png"
                   alt="linkedin"
-                  class="ml-6"
+                  class="ml-6 text-white"
                 />
               </a>
               <a
@@ -272,23 +266,43 @@ bodyClass: bg-gray-100
                   alt="facebook"
                 />
               </a>
+              <hr class="border-0 bg-white text-white h-px w-2/4" />
               </td>
             </tr>
             <tr>
               <td class="text-center">
-                <table class="w-full mt-24 mb-6 text-white text-sm">
+                <table
+                  class="w-full sm:w-full mt-24 mb-6 text-white text-sm"
+                >
                   <tr>
-                    <td class="min-w-64"></td>
-                    <td class="">
-                      <p class="min-w-64">Terms of Service</p>
+                    <td class="w-1/3 text-right">
+                      <p>
+                        <a
+                          class="text-white no-underline"
+                          href="https://queenly.com/terms-of-service
+                        "
+                          >Terms of Service</a
+                        >
+                      </p>
                     </td>
-                    <td>
-                      <p class="min-w-64 pr-2">FAQs</p>
+                    <td class="w-1/3">
+                      <p>
+                        <a
+                          class="text-white no-underline"
+                          href=" https://queenly.com/faqs/"
+                          >FAQs</a
+                        >
+                      </p>
                     </td>
-                    <td>
-                      <p class="min-w-64">Privacy Policy</p>
+                    <td class="w-1/3 text-left">
+                      <p>
+                        <a
+                          class="text-white no-underline"
+                          href="https://queenly.com/privacy-policy"
+                          >Privacy Policy</a
+                        >
+                      </p>
                     </td>
-                    <td class="min-w-64"></td>
                   </tr>
                 </table>
                 <img
@@ -297,32 +311,35 @@ bodyClass: bg-gray-100
                   class="mb-6"
                 />
                 <hr class="border-0 bg-white text-white h-px w-2/4" />
-
-                <p class="text-xs text-white mx-96 px-80">
+                <p class="text-xs text-white px-120 sm:px-6">
                   You are receiving this email because you signed up as a
                   Queenly user. We will send you emails notifying you of
                   offers, purchases, questions, and occasional promotions.
-                  You can unsubscribe from these emails.
+                  You can
+                  <a href="..." class="text-white">unsubscribe</a> from
+                  these emails.
                 </p>
               </td>
             </tr>
             <tr>
-              <td class="h-12 sm:h-12"></td>
+              <td class="h-6 sm:h-2"></td>
             </tr>
             <tr>
               <td>
-                <table class="w-full text-xs ml-24 text-white">
+                <table
+                  class="w-full text-xs ml-24 sm:ml-2 mb-6 text-white"
+                >
                   <tr>
-                    <td class="min-w-64 no-underline">
+                    <td class="w-1/3 no-underline">
                       <p>Need help? Contact us here: info@queenly.com</p>
                     </td>
-                    <td class="min-w-64">
+                    <td class="w-1/3">
                       <p>
                         Queenly Inc - 45 Lansing St, San Francisco, CA
                         94105
                       </p>
                     </td>
-                    <td class="min-w-64">
+                    <td class="w-1/3">
                       <p>
                         Copyright © 2020, Queenly Inc., All rights
                         reserved.
@@ -332,7 +349,6 @@ bodyClass: bg-gray-100
                 </table>
               </td>
             </tr>
-          </table>
         </td>
       </tr>
     </table>

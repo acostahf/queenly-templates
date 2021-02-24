@@ -1,11 +1,12 @@
 module.exports = {
+  darkMode: "media",
   theme: {
     screens: {
       sm: { max: "600px" },
     },
     extend: {
       backgroundImage: (theme) => ({
-        coins: "url('images/coins.png')",
+        hero: "url('https://i.imgur.com/FX8s35u.png')",
       }),
       zIndex: {
         "-10": "-10",
@@ -52,6 +53,7 @@ module.exports = {
         72: "72px",
         80: "80px",
         96: "96px",
+        120: "120px",
         600: "600px",
         "1/2": "50%",
         "1/3": "33.333333%",
@@ -106,6 +108,9 @@ module.exports = {
         ],
         mono: ["ui-monospace", "Menlo", "Consolas", "monospace"],
       },
+      fontWeight: {
+        black: "900",
+      },
       fontSize: {
         0: "0",
         xs: "7px",
@@ -151,10 +156,11 @@ module.exports = {
   },
   corePlugins: {
     animation: false,
-    backgroundOpacity: true,
+    backgroundOpacity: false,
     borderOpacity: false,
     divideOpacity: false,
     placeholderOpacity: false,
     textOpacity: false,
   },
+  plugins: [require("tailwindcss-mso")()],
 };
