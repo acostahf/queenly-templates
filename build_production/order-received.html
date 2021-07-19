@@ -36,20 +36,20 @@
   }
 }
 @media (max-width: 600px) {
+  .sm-mb-2 {
+    margin-bottom: 2px !important;
+  }
+  .sm-ml-2 {
+    margin-left: 2px !important;
+  }
   .sm-h-2 {
     height: 2px !important;
   }
   .sm-h-32 {
     height: 32px !important;
   }
-  .sm-text-base {
-    font-size: 14px !important;
-  }
-  .sm-mb-2 {
-    margin-bottom: 2px !important;
-  }
-  .sm-ml-2 {
-    margin-left: 2px !important;
+  .sm-w-full {
+    width: 100% !important;
   }
   .sm-px-6 {
     padding-left: 6px !important;
@@ -70,13 +70,13 @@
   .sm-pr-2 {
     padding-right: 2px !important;
   }
-  .sm-w-full {
-    width: 100% !important;
+  .sm-text-base {
+    font-size: 14px !important;
   }
 }
 </style>
   </head>
-  <body style="margin: 0; padding: 0; width: 100%; word-break: break-word; -webkit-font-smoothing: antialiased; background-color: #f3f4f6;">
+  <body style="margin: 0; width: 100%; padding: 0; word-break: break-word; -webkit-font-smoothing: antialiased; background-color: #f3f4f6;">
       <div style="display: none;">
         👀 Lorem, ipsum, and much dolor in this week's edition&#847; &#847; &#847; &#847; &#847; &#847; &#847;
         &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847;
@@ -93,15 +93,15 @@
         &#160;&#847; &#847; &#847; &#847; &#847;
       </div>
     <div role="article" aria-roledescription="email" aria-label="Order Received" lang="en">
-    <table style="background-repeat: no-repeat; font-family: Mulish, sinkin-sans, ui-sans-serif, system-ui, -apple-system, sans-serif; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+    <table style="width: 100%; background-repeat: no-repeat; font-family: Mulish, sinkin-sans, ui-sans-serif, system-ui, -apple-system, sans-serif;" cellpadding="0" cellspacing="0" role="presentation">
       <tr>
         <td align="center" class="sm-px-16" style="background-color: #ffffff;">
-          <table class="sm-w-full dark-bg-gray-100" style="background: linear-gradient(#fdfdfd 5%, #8d5ff0 25%); background-repeat: no-repeat; width: 600px;" cellpadding="0" cellspacing="0" role="presentation"> <tr>
+          <table class="sm-w-full dark-bg-gray-100" style="background: linear-gradient(#fdfdfd 5%, #8d5ff0 25%); width: 600px; background-repeat: no-repeat;" cellpadding="0" cellspacing="0" role="presentation"> <tr>
               <td class="sm-py-80 sm-px-24" style="background-image: url(https://i.imgur.com/10Kczah.png); background-position: right; background-repeat: no-repeat; padding-left: 48px; padding-right: 48px; padding-top: 52px; padding-bottom: 52px; text-align: center;">
                 <a>
-                  <img src="https://i.imgur.com/vAAizyW.png" alt="logo" style="border: 0; line-height: 100%; max-width: 100%; vertical-align: middle;">
+                  <img src="https://i.imgur.com/vAAizyW.png" alt="logo" style="border: 0; max-width: 100%; vertical-align: middle; line-height: 100%;">
                 </a>
-                <h1 style="font-family: Mulish, sinkin-sans, ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 41px; margin: 0; color: #682aeb; text-transform: uppercase;">
+                <h1 style="margin: 0; font-family: Mulish, sinkin-sans, ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 41px; text-transform: uppercase; color: #682aeb;">
                   Order Received, Queen!
                 </h1>
                 <h3 style="font-size: 14px; color: #682aeb;">ORDER NO: XXXXX</h3>
@@ -136,23 +136,23 @@
               </td>
             </tr> <tr>
               <td>
-                <table style="padding: 24px; color: #ffffff; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+                <table style="width: 100%; padding: 24px; color: #ffffff;" cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
                     <td style="width: 16.666667%;">
                       <a href="">
-                        <img src="https://via.placeholder.com/100x112" alt="..." style="border: 0; line-height: 100%; max-width: 100%; vertical-align: middle;">
+                        <img src="https://via.placeholder.com/100x112" alt="..." style="border: 0; max-width: 100%; vertical-align: middle; line-height: 100%;">
                       </a>
                     </td>
                     <td style="padding-left: 24px;">
                       <table cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
                           <td style="width: 100%;">
-                            <h3 class="sm-mb-2 sm-pr-2 sm-text-base" style="font-size: 20px; margin-top: 0; margin-bottom: 6px; padding-right: 6px;">Prom Dress</h3>
+                            <h3 class="sm-mb-2 sm-pr-2 sm-text-base" style="margin-top: 0; margin-bottom: 6px; padding-right: 6px; font-size: 20px;">Prom Dress</h3>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p class="sm-text-base" style="font-size: 18px; margin-top: 6px; padding-right: 6px;">details about dress </p>
+                            <p class="sm-text-base" style="margin-top: 6px; padding-right: 6px; font-size: 18px;">details about dress </p>
                           </td>
                         </tr>
                         <tr>
@@ -161,30 +161,30 @@
                       </table>
                     </td>
                     <td style="width: 16.666667%;">
-                      <h3 class="sm-text-base" style="font-size: 20px; margin-top: 0; margin-bottom: 72px;">$23.50</h3>
+                      <h3 class="sm-text-base" style="margin-top: 0; margin-bottom: 72px; font-size: 20px;">$23.50</h3>
                     </td>
                   </tr>
                 </table>
               </td>
             </tr> <tr>
               <td>
-                <table style="padding: 24px; color: #ffffff; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+                <table style="width: 100%; padding: 24px; color: #ffffff;" cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
                     <td style="width: 16.666667%;">
                       <a href="">
-                        <img src="https://via.placeholder.com/100x112" alt="..." style="border: 0; line-height: 100%; max-width: 100%; vertical-align: middle;">
+                        <img src="https://via.placeholder.com/100x112" alt="..." style="border: 0; max-width: 100%; vertical-align: middle; line-height: 100%;">
                       </a>
                     </td>
                     <td style="padding-left: 24px;">
                       <table cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
                           <td style="width: 100%;">
-                            <h3 class="sm-mb-2 sm-pr-2 sm-text-base" style="font-size: 20px; margin-top: 0; margin-bottom: 6px; padding-right: 6px;">Prom Dress</h3>
+                            <h3 class="sm-mb-2 sm-pr-2 sm-text-base" style="margin-top: 0; margin-bottom: 6px; padding-right: 6px; font-size: 20px;">Prom Dress</h3>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p class="sm-text-base" style="font-size: 18px; margin-top: 6px; padding-right: 6px;">details about dress </p>
+                            <p class="sm-text-base" style="margin-top: 6px; padding-right: 6px; font-size: 18px;">details about dress </p>
                           </td>
                         </tr>
                         <tr>
@@ -193,14 +193,14 @@
                       </table>
                     </td>
                     <td style="width: 16.666667%;">
-                      <h3 class="sm-text-base" style="font-size: 20px; margin-top: 0; margin-bottom: 72px;">$23.50</h3>
+                      <h3 class="sm-text-base" style="margin-top: 0; margin-bottom: 72px; font-size: 20px;">$23.50</h3>
                     </td>
                   </tr>
                 </table>
               </td>
             </tr> <tr>
               <td>
-                <table style="padding: 24px; color: #ffffff; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+                <table style="width: 100%; padding: 24px; color: #ffffff;" cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
                     <td>
                       <h3>Payment Method:</h3>
@@ -211,18 +211,18 @@
               </td>
             </tr> <tr>
               <td>
-                <table style="font-size: 20px; text-align: right; color: #ffffff; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+                <table style="width: 100%; text-align: right; font-size: 20px; color: #ffffff;" cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
                     <td style="width: 50%;">
                     </td>
                     <td style="width: 25%;">
                       <p class="sm-text-base" style="margin-bottom: 6px;">Subtotal:</p>
-                      <p class="sm-text-base" style="margin-bottom: 6px; margin-top: 12px;">Tax (5.3%):</p>
+                      <p class="sm-text-base" style="margin-top: 12px; margin-bottom: 6px;">Tax (5.3%):</p>
                       <p class="sm-text-base" style="margin-top: 12px;">Total:</p>
                     </td>
-                    <td style="text-align: center; width: 25%;">
+                    <td style="width: 25%; text-align: center;">
                       <p class="sm-text-base" style="margin-bottom: 6px;">$278.50</p>
-                      <p class="sm-text-base" style="margin-bottom: 6px; margin-top: 12px;">$50.50</p>
+                      <p class="sm-text-base" style="margin-top: 12px; margin-bottom: 6px;">$50.50</p>
                       <p class="sm-text-base" style="margin-top: 12px;">$278.50</p>
                     </td>
                   </tr>
@@ -251,11 +251,11 @@
                     </td>
                   </tr>
                   <tr>
-                    <td class="sm-w-full" style="padding-bottom: 48px; width: 100%;">
+                    <td class="sm-w-full" style="width: 100%; padding-bottom: 48px;">
                       <table style="margin-left: auto; margin-right: auto;" cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
-                            <th style="mso-padding-alt: 6px 48px; background-color: #8d5ff0; border-radius: 9999px;">
-                            <a href="https://queenly.com/your-profile" style="border-color: #f9fafb; display: block; font-size: 12px; line-height: 100%; padding-top: 6px; padding-bottom: 6px; padding-left: 12px; padding-right: 12px; color: #ffffff; text-decoration: none;">REFER YOUR FRIENDS HERE</a>
+                            <th style="mso-padding-alt: 6px 48px; border-radius: 9999px; background-color: #8d5ff0;">
+                            <a href="https://queenly.com/your-profile" style="display: block; border-color: #f9fafb; padding-left: 12px; padding-right: 12px; padding-top: 6px; padding-bottom: 6px; font-size: 12px; line-height: 100%; color: #ffffff; text-decoration: none;">REFER YOUR FRIENDS HERE</a>
                           </th>
                         </tr>
                       </table>
@@ -269,30 +269,30 @@
             </tr>
             <tr>
               <td style="height: 64px; text-align: center; color: #ffffff;">
-                <p style="font-size: 11px; margin-bottom: 6px;">Need help? Contact us here: info@queenly.com</p>
+                <p style="margin-bottom: 6px; font-size: 11px;">Need help? Contact us here: info@queenly.com</p>
                 <a href="https://www.linkedin.com/company/queenly" style="text-decoration: none;">
-                <img src="https://i.imgur.com/ctQ5Ob9.png" alt="linkedin" style="border: 0; line-height: 100%; max-width: 100%; vertical-align: middle; margin-left: 6px; color: #ffffff;">
+                <img src="https://i.imgur.com/ctQ5Ob9.png" alt="linkedin" style="border: 0; max-width: 100%; vertical-align: middle; line-height: 100%; margin-left: 6px; color: #ffffff;">
               </a>
               <a href="https://www.pinterest.com/queenlyapp/_created/" style="text-decoration: none;">
-                <img src="https://i.imgur.com/sXSOWRj.png" alt="pinterest" style="border: 0; line-height: 100%; max-width: 100%; vertical-align: middle; margin-left: 6px;">
+                <img src="https://i.imgur.com/sXSOWRj.png" alt="pinterest" style="border: 0; max-width: 100%; vertical-align: middle; line-height: 100%; margin-left: 6px;">
               </a>
               <a href="https://www.tiktok.com/@queenlyapp" style="text-decoration: none;">
-                <img src="https://i.imgur.com/yt6GkBH.png" alt="tiktok" style="border: 0; line-height: 100%; max-width: 100%; vertical-align: middle; margin-left: 6px;">
+                <img src="https://i.imgur.com/yt6GkBH.png" alt="tiktok" style="border: 0; max-width: 100%; vertical-align: middle; line-height: 100%; margin-left: 6px;">
               </a>
               <a href="https://www.instagram.com/queenlyapp/" style="text-decoration: none;">
-                <img src="https://i.imgur.com/jFhPpU5.png" alt="instagram" style="border: 0; line-height: 100%; max-width: 100%; vertical-align: middle; margin-left: 6px;">
+                <img src="https://i.imgur.com/jFhPpU5.png" alt="instagram" style="border: 0; max-width: 100%; vertical-align: middle; line-height: 100%; margin-left: 6px;">
               </a>
               <a href="https://www.facebook.com/queenlyapp" style="text-decoration: none;">
-                <img src="https://i.imgur.com/zHI3eCH.png" alt="facebook" style="border: 0; line-height: 100%; max-width: 100%; vertical-align: middle;">
+                <img src="https://i.imgur.com/zHI3eCH.png" alt="facebook" style="border: 0; max-width: 100%; vertical-align: middle; line-height: 100%;">
               </a>
-              <hr style="background-color: #ffffff; border-width: 0px; height: 1px; color: #ffffff; width: 50%;">
+              <hr style="height: 1px; width: 50%; border-width: 0px; background-color: #ffffff; color: #ffffff;">
               </td>
             </tr>
             <tr>
               <td style="text-align: center;">
-                <table class="sm-w-full" style="font-size: 9px; margin-bottom: 6px; margin-top: 24px; color: #ffffff; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+                <table class="sm-w-full" style="margin-top: 24px; margin-bottom: 6px; width: 100%; font-size: 9px; color: #ffffff;" cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
-                    <td style="text-align: right; width: 33.333333%;">
+                    <td style="width: 33.333333%; text-align: right;">
                       <p>
                         <a href="https://queenly.com/terms-of-service
                         " style="color: #ffffff; text-decoration: none;">Terms of Service</a>
@@ -303,16 +303,16 @@
                         <a href=" https://queenly.com/faqs/" style="color: #ffffff; text-decoration: none;">FAQs</a>
                       </p>
                     </td>
-                    <td style="text-align: left; width: 33.333333%;">
+                    <td style="width: 33.333333%; text-align: left;">
                       <p>
                         <a href="https://queenly.com/privacy-policy" style="color: #ffffff; text-decoration: none;">Privacy Policy</a>
                       </p>
                     </td>
                   </tr>
                 </table>
-                <img src="https://i.imgur.com/F0DC5Cx.png" alt="logo" style="border: 0; line-height: 100%; max-width: 100%; vertical-align: middle; margin-bottom: 6px;">
-                <hr style="background-color: #ffffff; border-width: 0px; height: 1px; color: #ffffff; width: 50%;">
-                <p class="sm-px-6" style="font-size: 7px; padding-left: 120px; padding-right: 120px; color: #ffffff;">
+                <img src="https://i.imgur.com/F0DC5Cx.png" alt="logo" style="border: 0; max-width: 100%; vertical-align: middle; line-height: 100%; margin-bottom: 6px;">
+                <hr style="height: 1px; width: 50%; border-width: 0px; background-color: #ffffff; color: #ffffff;">
+                <p class="sm-px-6" style="padding-left: 120px; padding-right: 120px; font-size: 7px; color: #ffffff;">
                   You are receiving this email because you signed up as a
                   Queenly user. We will send you emails notifying you of
                   offers, purchases, questions, and occasional promotions.
@@ -327,9 +327,9 @@
             </tr>
             <tr>
               <td>
-                <table class="sm-ml-2" style="font-size: 7px; margin-bottom: 6px; margin-left: 24px; color: #ffffff; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+                <table class="sm-ml-2" style="margin-bottom: 6px; margin-left: 24px; width: 100%; font-size: 7px; color: #ffffff;" cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
-                    <td style="text-decoration: none; width: 33.333333%;">
+                    <td style="width: 33.333333%; text-decoration: none;">
                       <p>Need help? Contact us here: info@queenly.com</p>
                     </td>
                     <td style="width: 33.333333%;">
