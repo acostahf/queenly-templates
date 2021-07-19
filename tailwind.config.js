@@ -126,6 +126,7 @@ module.exports = {
       },
       fontWeight: {
         black: "900",
+        650: "650",
       },
       fontSize: {
         0: "0",
