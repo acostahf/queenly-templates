@@ -16,6 +16,7 @@ module.exports = {
           DEFAULT: "#FFFFFF",
         },
         purple: {
+          new: "#5E00FF",
           dark: "#682AEB",
           light: "#8D5FF0",
           superL: "#BE9FFF",
@@ -58,6 +59,7 @@ module.exports = {
         120: "120px",
         200: "200px",
         300: "300px",
+        325: "325px",
         400: "400px",
         500: "500px",
         600: "600px",
