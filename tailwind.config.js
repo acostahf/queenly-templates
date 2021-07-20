@@ -20,6 +20,14 @@ module.exports = {
           dark: "#682AEB",
           light: "#8D5FF0",
           superL: "#BE9FFF",
+          cool: "#DFC9E7",
+        },
+        orange: {
+          new: "#FE855A",
+          dark: "#BF5833",
+        },
+        green: {
+          new: "#889257",
         },
       },
       spacing: {
@@ -64,6 +72,7 @@ module.exports = {
         425: "425px",
         500: "500px",
         600: "600px",
+        1000: "1000px",
         "1/2": "50%",
         "1/3": "33.333333%",
         "2/3": "66.666667%",
