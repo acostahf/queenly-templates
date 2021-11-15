@@ -16,11 +16,13 @@ module.exports = {
           DEFAULT: "#FFFFFF",
         },
         purple: {
+          nmr: "#52195A",
           new: "#5E00FF",
           dark: "#682AEB",
           light: "#8D5FF0",
           superL: "#BE9FFF",
           cool: "#DFC9E7",
+          newnew: "#BA6D96",
         },
         orange: {
           new: "#FE855A",
@@ -28,6 +30,13 @@ module.exports = {
         },
         green: {
           new: "#889257",
+          light: "#99AF32",
+        },
+        blue: {
+          new: "#9BC4E4",
+        },
+        brown: {
+          nmr: "#CA8469",
         },
       },
       spacing: {
@@ -66,6 +75,7 @@ module.exports = {
         100: "100px",
         120: "120px",
         200: "200px",
+        270: "270px",
         300: "300px",
         325: "325px",
         400: "400px",
