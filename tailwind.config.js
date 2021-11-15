@@ -34,6 +34,8 @@ module.exports = {
         },
         blue: {
           new: "#9BC4E4",
+          nmr: "#073F9E",
+          lite: "#8BA2B9",
         },
         brown: {
           nmr: "#CA8469",
