@@ -1,6 +1,16 @@
 module.exports = {
   darkMode: "media",
   theme: {
+    fontFamily: {
+      "open-sans": [
+        '"Mulish"',
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        '"Segoe UI"',
+        "sans-serif",
+      ],
+    },
     screens: {
       sm: { max: "600px" },
     },
@@ -39,6 +49,13 @@ module.exports = {
         },
         brown: {
           nmr: "#CA8469",
+        },
+        black: {
+          nmr: "#212121",
+        },
+        pink: {
+          hot: "#D1456A",
+          light: "#F1ABC1",
         },
       },
       spacing: {
@@ -148,6 +165,8 @@ module.exports = {
         mono: ["ui-monospace", "Menlo", "Consolas", "monospace"],
       },
       fontWeight: {
+        semibold: "550",
+
         black: "900",
         650: "650",
       },
@@ -165,6 +184,9 @@ module.exports = {
         15: "15px",
         18: "18px",
         20: "20px",
+        25: "25px",
+        35: "35px",
+        45: "45px",
         "2xl": "24px",
         "3xl": "30px",
         "4xl": "36px",
@@ -173,6 +195,9 @@ module.exports = {
         "7xl": "72px",
         "8xl": "96px",
         "9xl": "128px",
+      },
+      fontWeight: {
+        semibold: 600,
       },
       inset: (theme) => ({
         ...theme("spacing"),
