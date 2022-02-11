@@ -50,8 +50,11 @@ module.exports = {
         brown: {
           nmr: "#CA8469",
         },
-        black: {
-          nmr: "#212121",
+        nmr: {
+          black: "#212121",
+          dark: "#333333",
+          lightGray: "#c4c4c4",
+          gray: "#686868",
         },
         pink: {
           hot: "#D1456A",
